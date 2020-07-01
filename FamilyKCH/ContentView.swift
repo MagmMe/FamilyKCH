@@ -8,14 +8,20 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    var body: some View {
-        Text("Hello, World! Testing")
+    struct ContentView: View {
+        var body: some View {
+            VStack(alignment: .leading) {
+                Text("Zalew Chechło")
+                    .font(.largeTitle)
+                Text("Chrzanów")
+                    .font(.subheadline)
+                    .foregroundColor(.gray)
+            }
+        }
     }
-}
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
-}

@@ -14,6 +14,7 @@
 		525F4C2124AB0A4800E75D60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525F4C2024AB0A4800E75D60 /* Preview Assets.xcassets */; };
 		525F4C2424AB0A4800E75D60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525F4C2224AB0A4800E75D60 /* LaunchScreen.storyboard */; };
 		52E10DD524ADA8310009ADAF /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E10DD424ADA8310009ADAF /* CircleImage.swift */; };
+		52E10DD724ADAC7E0009ADAF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E10DD624ADAC7E0009ADAF /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		525F4C2324AB0A4800E75D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		525F4C2524AB0A4800E75D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52E10DD424ADA8310009ADAF /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		52E10DD624ADAC7E0009ADAF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				525F4C2524AB0A4800E75D60 /* Info.plist */,
 				525F4C1F24AB0A4800E75D60 /* Preview Content */,
 				52E10DD424ADA8310009ADAF /* CircleImage.swift */,
+				52E10DD624ADAC7E0009ADAF /* MapView.swift */,
 			);
 			path = FamilyKCH;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			files = (
 				525F4C1824AB0A4600E75D60 /* AppDelegate.swift in Sources */,
 				52E10DD524ADA8310009ADAF /* CircleImage.swift in Sources */,
+				52E10DD724ADAC7E0009ADAF /* MapView.swift in Sources */,
 				525F4C1A24AB0A4600E75D60 /* SceneDelegate.swift in Sources */,
 				525F4C1C24AB0A4600E75D60 /* ContentView.swift in Sources */,
 			);

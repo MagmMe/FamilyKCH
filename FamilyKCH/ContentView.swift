@@ -11,12 +11,18 @@ import SwiftUI
     struct ContentView: View {
         var body: some View {
             VStack(alignment: .leading) {
-                Text("Zalew Chechło")
-                    .font(.largeTitle)
-                Text("Chrzanów")
-                    .font(.subheadline)
+                Text("Zalew Gliniak")
+                    .font(.title)
+                HStack {
+                    Text("Bolęcin")
+                        .font(.subheadline)
+                    Spacer()
+                    Text("Gmina Chrzanów")
+                        .font(.subheadline)
                     .foregroundColor(.gray)
+                }
             }
+            .padding()
         }
     }
 
